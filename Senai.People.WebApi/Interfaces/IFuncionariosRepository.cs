@@ -1,5 +1,4 @@
-﻿using Senai.Peoples.WebApi.Controllers;
-using Senai.Peoples.WebApi.Domains;
+﻿using Senai.Peoples.WebApi.Domains;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +11,13 @@ namespace Senai.Peoples.WebApi.Interfaces
             List<FuncionariosDomain> Listar();
 
             FuncionariosDomain BuscarPorId(int id);
-        }
+
+            void Cadastrar(FuncionariosDomain funcionariosDomain);
+
+            void Deletar(int id);
+
+            void AtualizarIdUrl(int id, FuncionariosDomain funcionarios);
+    }
         
     
 }
