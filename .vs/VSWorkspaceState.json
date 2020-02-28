@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\ScriptsSQL"
   ],
-  "SelectedNode": "\\ScriptsSQL",
+  "SelectedNode": "\\ScriptsSQL\\DDL.Peoples.Sprint2.sql",
   "PreviewInSolutionExplorer": false
 }
